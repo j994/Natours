@@ -49,6 +49,10 @@
     overflow: hidden;
     opacity: 0;
     transition: all 0.4s 0.2s;
+
+    @include respond(tab-land) {
+      width: 95%;
+    }
   }
 
   &:target &__content {
